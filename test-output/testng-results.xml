@@ -1,25 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="71518" started-at="2020-04-18T18:34:16Z" finished-at="2020-04-18T18:35:28Z">
+  <suite name="Fre eCRM automation Test suite" duration-ms="48103" started-at="2020-04-18T20:20:29Z" finished-at="2020-04-18T20:21:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="71518" started-at="2020-04-18T18:34:16Z" finished-at="2020-04-18T18:35:28Z">
-      <class name="com.crm.qa.testcases.ContactsPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@271053e1]" name="setup" is-config="true" duration-ms="70157" started-at="2020-04-18T18:34:16Z" finished-at="2020-04-18T18:35:26Z">
+    <test name="Free CRM Test" duration-ms="48103" started-at="2020-04-18T20:20:29Z" finished-at="2020-04-18T20:21:17Z">
+      <class name="com.crm.qa.testcases.LandingPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LandingPageTest@3c0ecd4b]" name="setUp" is-config="true" duration-ms="18584" started-at="2020-04-18T20:20:29Z" finished-at="2020-04-18T20:20:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="selectContactsByNameTest()[pri:2, instance:com.crm.qa.testcases.ContactsPageTest@271053e1]" name="selectContactsByNameTest" duration-ms="253" started-at="2020-04-18T18:35:26Z" finished-at="2020-04-18T18:35:27Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LandingPageTitleTest()[pri:0, instance:com.crm.qa.testcases.LandingPageTest@3c0ecd4b]" name="LandingPageTitleTest" duration-ms="320" started-at="2020-04-18T20:20:48Z" finished-at="2020-04-18T20:20:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectContactsByNameTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@271053e1]" name="tearDown" is-config="true" duration-ms="1063" started-at="2020-04-18T18:35:27Z" finished-at="2020-04-18T18:35:28Z">
+        </test-method> <!-- LandingPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LandingPageTest@3c0ecd4b]" name="tearDown" is-config="true" duration-ms="1160" started-at="2020-04-18T20:20:48Z" finished-at="2020-04-18T20:20:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LandingPageTest@3c0ecd4b]" name="setUp" is-config="true" duration-ms="8753" started-at="2020-04-18T20:20:49Z" finished-at="2020-04-18T20:20:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LogInBtnClickTest()[pri:0, instance:com.crm.qa.testcases.LandingPageTest@3c0ecd4b]" name="LogInBtnClickTest" duration-ms="7602" started-at="2020-04-18T20:20:58Z" finished-at="2020-04-18T20:21:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInBtnClickTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LandingPageTest@3c0ecd4b]" name="tearDown" is-config="true" duration-ms="865" started-at="2020-04-18T20:21:05Z" finished-at="2020-04-18T20:21:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LandingPageTest@3c0ecd4b]" name="setUp" is-config="true" duration-ms="9367" started-at="2020-04-18T20:21:06Z" finished-at="2020-04-18T20:21:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="freeCRMLogoTest()[pri:0, instance:com.crm.qa.testcases.LandingPageTest@3c0ecd4b]" name="freeCRMLogoTest" duration-ms="488" started-at="2020-04-18T20:21:16Z" finished-at="2020-04-18T20:21:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freeCRMLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LandingPageTest@3c0ecd4b]" name="tearDown" is-config="true" duration-ms="899" started-at="2020-04-18T20:21:16Z" finished-at="2020-04-18T20:21:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.LandingPageTest -->
+    </test> <!-- Free CRM Test -->
+  </suite> <!-- Fre eCRM automation Test suite -->
 </testng-results>
