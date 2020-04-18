@@ -31,6 +31,8 @@ public class ContactsPage extends TestBase{
 	@FindBy(xpath="//button[text()='Save']")
 	WebElement saveBtn;
 	
+	WebElement element;
+	
 	
 	public ContactsPage() {
 		PageFactory.initElements(driver, this);
@@ -42,14 +44,19 @@ public class ContactsPage extends TestBase{
 	
 	public void selectContactsByName(String name) {
 		
-		WebElement element = driver.findElement(By.xpath("//td[contains(text(),'"+name+"')]/preceding-sibling::td/div/input"));
+		element = driver.findElement(By.xpath("//td[contains(text(),'"+name+"')]/preceding-sibling::td/div/input"));
 		
 		//TestUtils.customWait_PresenceOfElementLocated(driver, By.xpath("//td[contains(text(),'"+name+"')]/preceding-sibling::td/div/input") , ExplicitWait_TimeOut);
 		//System.out.println("Printing contact name: " + driver.findElement(By.xpath("//tr[4]/td/following-sibling::td")).getText());
 		
 		TestUtils.clickUsingJavaScript(element);
+        		
 		
 		//element.click();
+	}
+	
+	public boolean contactSelectedValidation(String name) {
+		return element.isSelected();
 	}
 	
 	public NewContactPreviewPage createContact(String fname, String lname, String Company, String email) {

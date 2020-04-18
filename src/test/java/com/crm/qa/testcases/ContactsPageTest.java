@@ -35,19 +35,19 @@ public class ContactsPageTest extends TestBase{
 		landingPage = new LandingPage();
 		loginPage = landingPage.loginInclick();
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
-		//Thread.sleep(3000);
+		
 		//TestUtils.waitForelementToBeVisible(driver, driver.findElement(By.xpath("//span/a[contains(@href,'contacts')]")), ExplicitWait_TimeOut);
 		TestUtils.waitForelementToBeVisible(driver, driver.findElement(By.xpath("//th[text()='Contact']")), ExplicitWait_TimeOut);
 		contactsPage = homePage.clickContacts();
-		//Thread.sleep(3000);
-		
+				
 		TestUtils.waitForInvisibilityOfelement(driver, driver.findElement(By.xpath("//span/p[contains(text(),'Loading')]")), ExplicitWait_TimeOut);
 	}
 	
 	@Test(priority=2)
 	public void selectContactsByNameTest() throws InterruptedException {
-		//driver.navigate().refresh();
-		contactsPage.selectContactsByName("Rahul");
+		contactsPage.selectContactsByName("David");
+		Assert.assertEquals(contactsPage.contactSelectedValidation("David"),true);
+		
 	}
 	
 //	@Test//(priority=2)
