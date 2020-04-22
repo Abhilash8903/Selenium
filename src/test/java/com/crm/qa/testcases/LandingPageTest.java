@@ -25,18 +25,18 @@ public class LandingPageTest extends TestBase {
 		landingPage = new LandingPage();
 	}
 	
-	@Test//(priority=1)
+	@Test(priority=1, enabled = false)
 	public void LandingPageTitleTest() {
 		String landingPageTitle = landingPage.validatePageTitle();
 		Assert.assertEquals(landingPageTitle,"Free CRM #1 cloud software for any business large or small", "Landing page title does not match");
 	}
 	
-	@Test//(priority=2)
+	@Test(priority=2, enabled = false)
 	public void freeCRMLogoTest() {
 		Assert.assertTrue(landingPage.validateLogo(),"Logo not displayed on landing page");
 	}
 	
-	@Test//(priority=3)
+	@Test(priority=3, enabled = false)
 	public void LogInBtnClickTest() {
 		loginPage = landingPage.loginInclick();
 		Assert.assertTrue(loginPage.validateLoginPage(),"Login page is not displayed on clicking the 'Log In' button at landing page");
