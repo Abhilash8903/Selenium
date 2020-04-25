@@ -35,9 +35,9 @@
                     </suiteXmlFiles> -->
                     
                     <!-- parameterized -->
-                    <suiteXmlFiles>
+                    <!-- <suiteXmlFiles>
                         <suiteXmlFile>${testSuite}</suiteXmlFile>
-                    </suiteXmlFiles>
+                    </suiteXmlFiles> -->
                     
                 </configuration>
       </plugin>
