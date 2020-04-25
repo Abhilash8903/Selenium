@@ -185,11 +185,11 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Fre eCRM automation Test suite&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Fre eCRM automation Test suite&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.qa.ExtentReportListener.ExtentReporterNG&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Free CRM Test&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Free CRM Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.crm.qa.testcases.LoginPageTest&quot;/&gt;
       &lt;class name=&quot;com.crm.qa.testcases.HomePageTest&quot;/&gt;
@@ -234,26 +234,26 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginTest')
-data.setCell(0, 2, 'com.crm.qa.testcases.LoginPageTest')
-data.setCell(0, 3, 3988);
+data.setCell(0, 1, 'NavigateToContactsTest')
+data.setCell(0, 2, 'com.crm.qa.testcases.HomePageTest')
+data.setCell(0, 3, 6096);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'NavigateToContactsTest')
-data.setCell(1, 2, 'com.crm.qa.testcases.HomePageTest')
-data.setCell(1, 3, 3439);
+data.setCell(1, 1, 'loginTest')
+data.setCell(1, 2, 'com.crm.qa.testcases.LoginPageTest')
+data.setCell(1, 3, 4100);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'validateHomePageTitleTest')
 data.setCell(2, 2, 'com.crm.qa.testcases.HomePageTest')
-data.setCell(2, 3, 37);
+data.setCell(2, 3, 20);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'validateLoginPageTitleTest')
 data.setCell(3, 2, 'com.crm.qa.testcases.LoginPageTest')
-data.setCell(3, 3, 25);
+data.setCell(3, 3, 10);
 window.suiteTableData['Fre_eCRM_automation_Test_suite']= { tableData: data, tableDiv: 'times-div-Fre_eCRM_automation_Test_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
               <div id="times-div-Fre_eCRM_automation_Test_suite">
               </div> <!-- times-div-Fre_eCRM_automation_Test_suite -->
             </div> <!-- times-div -->
@@ -286,50 +286,50 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginTest</span>
-                <span class="method-start">31695 ms</span>
+                <span class="method-start">33922 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">35690 ms</span>
+                <span class="method-start">38023 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">37118 ms</span>
+                <span class="method-start">39654 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateLoginPageTitleTest</span>
-                <span class="method-start">58202 ms</span>
+                <span class="method-start">63122 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">58231 ms</span>
+                <span class="method-start">63132 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.crm.qa.testcases.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">59789 ms</span>
+                <span class="method-start">64085 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">NavigateToContactsTest</span>
-                <span class="method-start">85279 ms</span>
+                <span class="method-start">85331 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">88720 ms</span>
+                <span class="method-start">91427 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">90556 ms</span>
+                <span class="method-start">92754 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateHomePageTitleTest</span>
-                <span class="method-start">114160 ms</span>
+                <span class="method-start">120367 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">114199 ms</span>
+                <span class="method-start">120388 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

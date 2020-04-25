@@ -29,9 +29,16 @@
         <version>3.0.0-M4</version>
         <configuration>
                     <!-- Suite testng xml file to consider for test execution -->
-                    <suiteXmlFiles>
+                    <!-- *****************hard coded***********
+                     <suiteXmlFiles>
                         <suiteXmlFile>src/main/resources/testNG.xml</suiteXmlFile>
+                    </suiteXmlFiles> -->
+                    
+                    <!-- parameterized -->
+                    <suiteXmlFiles>
+                        <suiteXmlFile>${testSuite}</suiteXmlFile>
                     </suiteXmlFiles>
+                    
                 </configuration>
       </plugin>
         
